@@ -1,0 +1,222 @@
+*{
+   font-family:  'Merriweather', serif;
+}
+.header{
+    background-color: royalblue;
+    
+}
+div.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    padding-top: 10px;
+   
+}
+
+.one ul{
+    display: flex;
+   
+}
+.one ul li{
+    justify-content: space-around;
+}
+
+div.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(233, 233, 233);
+    flex-wrap: wrap;
+   min-height:50px;
+   max-height: 800px;
+ 
+}
+
+.imgleft{
+    text-align: left;
+    padding-top: 6px;
+    padding-left: 30px;
+}
+.home{
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+
+}
+.menu-bar{
+    text-align: left;
+    padding-top: 13px;
+    padding-bottom: 10px ;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.menu-bar ul li{
+    
+    padding: 5px 15px 5px 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active, .menu-bar ul li:hover{
+    background-color: royalblue;
+    border-radius:18px;
+}
+
+
+
+div.fourth{
+text-align: center;
+   min-height: 35px;
+padding-top: 7px;
+padding-left: 10px;
+padding-right: 10px; 
+}
+
+div.fifth{
+    text-align: center;
+    min-height: 600px;
+    max-height: 2000px;
+    background-color:  rgb(238, 238, 238);
+    padding: 60px 120px 60px 120px;
+}
+.fifth h1{
+    text-align: center;
+    color: royalblue;
+    height: 32px;
+}
+div.sixth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 230px;
+    max-height: 2000px;
+    color: white;
+    background-color: royalblue;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    padding: 60px 30px 60px 30px ;
+}
+div.seventh{
+    text-align: center;
+    padding: 40px ;
+    min-height: 500px;
+    max-height:3000px ;
+    background-color:whitesmoke ;
+}
+
+.col h5{
+    color: royalblue;
+}
+.col{
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap; 
+    background-color: white; 
+  
+}
+
+div.eight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    min-height: 300px;
+    max-height: 2000px;
+    margin: 15px;
+}
+
+.boxone{
+    width: 65%;
+}
+
+.box2{
+    width:25%;
+    height: 250px;
+}
+.box2 p{
+    height: 200px;
+    overflow: scroll;
+}
+
+
+div.nineth{
+text-align: center;
+padding-top: 40px;
+min-height: 400px;
+max-height: 2000px;
+}
+
+/* div.tenth{
+    display: flex;
+    padding: 80px 0px 0px 60px;
+    color: white;
+    background-color: black;
+    height: 600px;
+
+}
+.usefulinks{
+    border: 2px solid silver;
+    width: 65%;
+    padding: 80px 0px 0px 60px;
+
+}
+.contacts{
+    border: 2px solid silver;
+    width: 35% ;
+    padding: 80px 0px 0px 60px;
+} */
+table{
+    color: white;
+    background-color:hsl(0, 5%, 30%);
+    padding: 80px 0px 0px 60px;
+    height: 250px;
+    width: 100%;
+   
+}
+.foot{
+    color: white;
+    background-color: royalblue;
+    height: 35px;
+    font-size: 11px;
+    padding-top: 8px;
+    padding-left: 35px;
+
+}
+
+
+.text2 .fa-facebook {
+    background: skyblue;
+    color: white;
+  }
+  .text2 .fa-twitter {
+    background:skyblue;
+    color: white;
+  }
+  .text2 .fa-youtube {
+    background: skyblue;
+    color: white;
+  }
+  
+  .text2 .fa-instagram {
+    background:skyblue;
+    color: white;
+  }
+ .fa-angle-up{
+     text-align: right;
+ } 
+ .scrollToTop{
+ background: gray;
+    bottom: 15px;
+    height: 50px;
+    padding: 2px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+    z-index: 99999;
+}
